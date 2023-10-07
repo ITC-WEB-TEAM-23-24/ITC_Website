@@ -1,0 +1,164 @@
+.tt_pack{
+    margin: 0;
+    display: flex;
+}
+
+.tt_pack .cards{
+    padding-left: 50px;
+}
+.tt_pack .sidebar{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border-left: 5px solid black;
+    writing-mode: vertical-lr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tt_pack .sidebar span{
+    position: absolute;
+    right: 30%;
+    font-weight: 1000;
+    font-size: 100px;
+}
+
+
+.tt_card{
+    -webkit-text-size-adjust: 100%;
+    font-size: 3vw;
+    box-sizing: border-box;
+    width: 35%;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    background-attachment: scroll!important;
+    grid-area: 1/2/2/6;
+    transition: 1s;
+  }
+  
+.tt_card .title{
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    box-sizing: border-box;
+    z-index: 5;
+    font-family: Suisseintl WebM,sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+    position: absolute;
+    left: 7.5%;
+    top: 5%;
+    font-size: 45%;
+  }
+  
+.tt_card .body{
+    -webkit-text-size-adjust: 100%;
+    font-family: Suisse bp int\'l,sans-serif;
+    color: #000;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 400;
+    z-index: 5;
+    line-height: 120%;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    bottom: 20%;
+    font-size: 40%;
+    opacity: 0;
+  }
+  
+.tt_card .imgw{
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    z-index: 1;
+    line-height: 120%;
+    position: relative;
+  }
+  
+.tt_card:hover{
+    transform: translate(0,-200px);
+    z-index: 10;
+  }
+  
+.tt_card:hover .body{
+    opacity: 1;
+  }
+
+
+#tt_card1{
+    top: 0;
+    left: 1vw;
+    z-index: 1;
+}
+
+#tt_card2{
+    top: 2vw;
+    left: 18vw;
+    z-index: 2;
+}
+
+#tt_card3{
+    top: 4vw;
+    left: 46vw;
+    z-index: 3;
+}
+#tt_card4{
+    top: 8vw;
+    left: 31vw;
+    z-index: 4;
+}
+
+#tt_card5{
+    top: 10vw;
+    left: 1vw;
+    z-index: 5;
+}
+
+#tt_card6{
+    top: 14vw;
+    left: 18vw;
+    z-index: 6;
+}
+
+#tt_card7{
+    top: 16vw;
+    left: 46vw;
+    z-index: 7;
+}
+
+#tt_card8{
+    top: 20vw;
+    left: 31vw;
+    z-index: 8;
+}
+
+#tt_card9{
+    top: 22vw;
+    left: 1vw;
+    z-index: 9;
+}
+#tt_card10{
+    top: 26vw;
+    left: 18vw;
+    z-index: 10;
+}
+
+#tt_card11{
+    top: 28vw;
+    left: 46vw;
+    z-index: 11;
+}
+
+#tt_card12{
+    top: 32vw;
+    left: 31vw;
+    z-index: 12;
+}
