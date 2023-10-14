@@ -1,0 +1,25 @@
+.mainbody{
+    display: flex;
+    color: white;
+    margin-top:50px;
+    margin-left:10%;
+}
+
+.mainbody-heading{
+    font-size: 85px;
+    font-weight: bold;
+    font-family: Barlow Condensed, sans-serif;
+    display: inline-block;
+}
+ 
+
+.motto{
+    font-size: 30px;
+    font-family: Barlow Condensed, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+p{
+    color: transparent;
+}

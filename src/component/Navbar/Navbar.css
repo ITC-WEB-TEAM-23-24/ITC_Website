@@ -1,0 +1,121 @@
+.navbar {
+    display: flex;
+    height: 12%;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+  }
+
+.navbar-logo img {
+    max-width: auto;  
+    height:11vh;
+    margin-top: 0px; 
+    margin-left: 25px;
+  }
+
+  .navbar-links {
+    /* justify-content: right; */
+    list-style: none;
+    display: flex;
+    gap: 18px; 
+    align-items: center;
+    margin-right: 1%;
+    transform: translateX(3.5em);
+}
+.navbar-links a {
+    z-index: -1;
+    color: #fff; 
+    font-size: 26px;  
+    font-weight: bold; 
+}
+.links{
+    position:relative;
+}
+
+.navbar-links li {
+    font-family: Barlow Condensed, sans-serif; 
+}
+
+.navbar-icon{
+
+    z-index: 200;
+    margin-right: 7px;
+    margin-top: 6px;
+}
+.navbar-icon img{
+    opacity:inherit ;
+    z-index: 200;
+    width: 30px;
+    height: 30px;
+}
+
+.collapsed{
+    opacity: 0;
+    transform: translateX(300%);
+    transition:all 2s ease;
+}
+
+
+
+/* .navbar {
+    display: flex;
+    height: 12%;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+  }
+
+.navbar-logo img {
+    max-width: auto;  
+    height:11vh;
+    margin-top: 0px; 
+    margin-left: 25px;
+  }
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 18px; 
+    align-items: center;
+    margin-right: 1%;
+    transform: translateX(3.5em);
+}
+.navbar-links a {
+    z-index: -1;
+    color: #fff; 
+    font-size: 26px;  
+    font-weight: bold; 
+}
+.links{
+    position:relative;
+}
+
+.navbar-links li {
+    font-family: Barlow Condensed, sans-serif; 
+}
+
+.navbar-icon{
+    z-index: 200;
+    margin-right: 7px;
+    margin-top: 6px;
+}
+.navbar-icon img{
+    opacity:inherit ;
+    z-index: 200;
+    width: 30px;
+    height: 30px;
+}
+
+.collapsed{
+    opacity: 0;
+    transform: translateX(300%);
+    transition:all 2s ease;
+} */

@@ -22,7 +22,7 @@ function TT_cards({ title, body, img, ids}) {
       alt="" 
       className="imgw"
     />
-  </div>
+  </div> 
   );
 }
 
