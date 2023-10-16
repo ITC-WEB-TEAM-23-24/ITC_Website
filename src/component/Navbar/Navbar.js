@@ -1,244 +1,91 @@
-// import React, { useState, useEffect } from "react";
-// import logoImage from "./logo.png";
-// import "./Navbar.css";
-// import "../fonts.css";
-// import iconsvg from "./icon.svg";
-
-// function Navbar() {
-//   const [isExpanded, setIsExpanded] = useState(true);
-//   const [originalPositions, setOriginalPositions] = useState([]);
-
-//   const animateNav = () => {
-//     const navbarlinks = document.querySelector(".navbar-links");
-//     const links = document.querySelectorAll(".links");
-//     const icon = document.querySelector(".navbar-icon");
-//     const iconPosition = icon.getBoundingClientRect().left;
-
-//     if (!isExpanded) {
-//       links.forEach((link, index) => {
-//         const originalPosition = -originalPositions[index];
-//         link.style.transition = "all 0.75s ease";
-//         link.style.transform = `translateX(${0}em)`;
-//         link.style.opacity = 1;
-//       });
-//       icon.style.opacity = 0;
-//       icon.style.transition = "all 0.5s ease";
-//       navbarlinks.style.transform = `translateX(${3.5}em)`;
-//       navbarlinks.style.transition = "all 0.5s ease";
-//     } else {
-//       links.forEach((link, index) => {
-//         const distance = originalPositions[index];
-//         link.style.transition = "transform 1s ease, opacity 0.75s ease";
-//         link.style.transform = `translateX(${distance - 5}em)`;
-//         link.style.opacity = 0;
-//       });
-//       icon.style.opacity = 1;
-//       icon.style.transition = "all 0.5s ease";
-//       navbarlinks.style.transform = `translateX(${0}em)`;
-//       navbarlinks.style.transition = "all 0.5s ease";
-//       // style.transition = "all 0.5s ease";
-//     }
-
-//     setIsExpanded(!isExpanded);
-//   };
-
-//   useEffect(() => {
-//     const links = document.querySelectorAll(".links");
-//     const icon = document.querySelector(".navbar-icon");
-//     const navbar = document.querySelector(".navbar");
-//     const navbarWidth = navbar.offsetWidth; // Get the width of the navbar
-//     const positions = [];
-
-//     links.forEach((link) => {
-//       const distance =
-//         ((icon.offsetLeft - link.offsetLeft) / navbarWidth) * 100; // Calculate as a percentage
-//       positions.push(distance);
-//     });
-
-//     setOriginalPositions(positions);
-//   }, []);
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       const navbarHeight = document.querySelector(".navbar").offsetHeight;
-
-//       if (window.scrollY > navbarHeight && isExpanded) {
-//         setIsExpanded(false);
-//         animateNav();
-//       } else if (window.scrollY === 0 && !isExpanded) {
-//         setIsExpanded(true);
-//         animateNav();
-//       }
-//     };
-
-//     window.addEventListener("scroll", handleScroll);
-
-//     // Clean up the event listener when the component unmounts
-//     return () => {
-//       window.removeEventListener("scroll", handleScroll);
-//     };
-//   }, [isExpanded]);
-
-//   const [showTopNavMenu, setShowTopNavMenu] = useState(false);
-
-//   const showNav= {
-//     display: showTopNavMenu ? 'flex' : 'none'
-//   }
-//   const hideNav= {
-//     display: showTopNavMenu ? 'none' : 'flex',
-//   }
-
-//   return (
-//     <>
-//       <nav className="navbar" style={showNav}>
-//         <div className="navbar-logo" >
-//           <img src={logoImage} alt="Logo" />
-//         </div>
-//         <ul className="navbar-links" >
-//           <li className={`links`}>
-//             <a href="#">EVENTS</a>
-//           </li>
-//           <li className={`links`}>
-//             <a href="#">CLUBS</a>
-//           </li>
-//           <li className={`links`}>
-//             <a href="#">TECH TEAMS</a>
-//           </li>
-//           <li className={`links`}>
-//             <a href="#">PORTALS</a>
-//           </li>
-//           <li className={`links`}>
-//             <a href="#">OTHER BODIES</a>
-//           </li>
-//           <li className={`links`}>
-//             <a href="#">WORK REPORT</a>
-//           </li>
-//         </ul>
-//       </nav>
-//       <nav className="navbar" style={hideNav} >
-//         <ul className="navbar-links">
-//       <div className="navbar-icon" onClick={animateNav}>
-//         <img src={iconsvg} alt="icon" />
-//       </div>
-//       </ul>
-//       </nav>
-//     </>
-//   );
-// }
-
-// export default Navbar;
-
-
-
 import React, { useState, useEffect } from "react";
 import logoImage from "./logo.png";
 import "./Navbar.css";
 import "../fonts.css";
 import iconsvg from "./icon.svg";
+import { motion } from "framer-motion";
 
 function Navbar() {
-  const [isExpanded, setIsExpanded] = useState(true);
-  const [originalPositions, setOriginalPositions] = useState([]);
-
-  const animateNav = () => {
-    const navbarlinks = document.querySelector(".navbar-links");
-    const links = document.querySelectorAll(".links");
-    const icon = document.querySelector(".navbar-icon");
-    const iconPosition = icon.getBoundingClientRect().left;
-
-    if (!isExpanded) {
-      links.forEach((link, index) => {
-        const originalPosition = -originalPositions[index];
-        link.style.transition = "all 0.75s ease";
-        link.style.transform = `translateX(${0}em)`;
-        link.style.opacity = 1;
-      });
-      icon.style.opacity = 0;
-      icon.style.transition = "all 0.5s ease";
-      navbarlinks.style.transform = `translateX(${3.5}em)`;
-      navbarlinks.style.transition = "all 0.5s ease";
-    } else {
-      links.forEach((link, index) => {
-        const distance = originalPositions[index];
-        link.style.transition = "transform 1s ease, opacity 0.75s ease";
-        link.style.transform = `translateX(${distance - 5}em)`;
-        link.style.opacity = 0;
-      });
-      icon.style.opacity = 1;
-      icon.style.transition = "all 0.5s ease";
-      navbarlinks.style.transform = `translateX(${0}em)`;
-      navbarlinks.style.transition = "all 0.5s ease";
-      // style.transition = "all 0.5s ease";
-    }
-
-    setIsExpanded(!isExpanded);
-  };
-
-  useEffect(() => {
-    const links = document.querySelectorAll(".links");
-    const icon = document.querySelector(".navbar-icon");
-    const navbar = document.querySelector(".navbar");
-    const navbarWidth = navbar.offsetWidth; // Get the width of the navbar
-    const positions = [];
-
-    links.forEach((link) => {
-      const distance =
-        ((icon.offsetLeft - link.offsetLeft) / navbarWidth) * 100; // Calculate as a percentage
-      positions.push(distance);
-    });
-
-    setOriginalPositions(positions);
-  }, []);
+  const [onTop, setonTop] = useState(true);
+  const [sidebar, setsidebar] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const navbarHeight = document.querySelector(".navbar").offsetHeight;
-
-      if (window.scrollY > navbarHeight && isExpanded) {
-        setIsExpanded(false);
-        animateNav();
-      } else if (window.scrollY === 0 && !isExpanded) {
-        setIsExpanded(true);
-        animateNav();
+      const scrollThreshold = 80;
+      if (window.scrollY > scrollThreshold) {
+        setonTop(false);
+      } else {
+        setonTop(true);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [isExpanded]);
+  }, []);
+
+  const links = [
+    { text: "EVENTS", x: "48vw", delay: 1 },
+    { text: "CLUBS", x: "42vw", delay: 0.8 },
+    { text: "TECH TEAMS", x: "34vw", delay: 0.6 },
+    { text: "PORTALS", x: "24vw", delay: 0.4 },
+    { text: "OTHER BODIES", x: "14vw", delay: 0.2 },
+    { text: "WORK REPORT", x: "2vw", delay: 0 },
+  ];
+
+  const handleClick = () => {
+    setsidebar(!sidebar);
+    const navlinks = document.querySelector(".navbar-links");
+    navlinks.style.flexDirection = sidebar ? "column" : "row";
+    console.log("clicked")
+  };
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
+      <motion.div
+        animate={{
+          opacity: onTop ? 1 : 0,
+          duration: 0.5,
+          zIndex: onTop ? 5 : -5,
+        }}
+        className="navbar-logo"
+      >
         <img src={logoImage} alt="Logo" />
-      </div>
-      <ul className="navbar-links">
-        <li className={`links`}>
-          <a href="#">EVENTS</a>
-        </li>
-        <li className={`links`}>
-          <a href="#">CLUBS</a>
-        </li>
-        <li className={`links`}>
-          <a href="#">TECH TEAMS</a>
-        </li>
-        <li className={`links`}>
-          <a href="#">PORTALS</a>
-        </li>
-        <li className={`links`}>
-          <a href="#">OTHER BODIES</a>
-        </li>
-        <li className={`links`}>
-          <a href="#">WORK REPORT</a>
-        </li>
-        <div className="navbar-icon" style={{ opacity: 0 }} onClick={animateNav}>
+      </motion.div>
+
+      <div className="elements">
+        <ul className="navbar-links">
+          {links.map((link, index) => (
+            <motion.li
+              key={index}
+              initial={{ x: 0, opacity: 1 }}
+              animate={{
+                opacity: onTop ? 1 : 0,
+                zIndex: -5,
+                x: onTop ? 0 : link.x,
+              }}
+              transition={{ duration: 0.5, delay: link.delay }}
+              className={`links`}
+            >
+              <a href={`#${link.text}`}>{link.text}</a>
+            </motion.li>
+          ))}
+        </ul>
+        <motion.div
+          onClick={() => handleClick()}
+          animate={{
+            type: "spring",
+            duration: 1,
+            zIndex: onTop ? -5 : 5,
+            opacity: onTop ? 0 : 1,
+          }}
+          className="navbar-icon"
+        >
           <img src={iconsvg} alt="icon" />
-        </div>
-      </ul>
+        </motion.div>
+      </div>
     </nav>
   );
 }
