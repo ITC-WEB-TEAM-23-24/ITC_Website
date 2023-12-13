@@ -10,17 +10,15 @@ import "./component/Chirag/style3.css";
 function App() {
   return (
     <>
-      <div className="App">
-        <div className="mainpage">
-          <Navbar />
-          <Mainbody />
-        </div>
-        <div className="page">
-          <Page1 />
-        </div>
-        <div className="tt">
-          <TT_Pack />
-        </div>
+      <div className="mainpage">
+        <Navbar />
+        <Mainbody />
+      </div>
+      <div className="page">
+        <Page1 />
+      </div>
+      <div className="tt">
+        <TT_Pack />
       </div>
     </>
   );
