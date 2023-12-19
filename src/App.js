@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import TT_Pack from "./component/techteam";
 import Navbar from "./component/Navbar/Navbar";
-import Mainbody from "./component/Mainbody/Mainbody";
+// import Mainbody from "./component/Mainbody/Mainbody";
 import Page1 from "./component/Chirag/Page1";
 import "./component/Chirag/sytle1.css";
 import "./component/Chirag/style2.css";
@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="mainpage">
         <Navbar />
-        <Mainbody />
+        {/* <Mainbody /> */}
       </div>
       <div className="page">
         <Page1 />
