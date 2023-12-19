@@ -3,6 +3,7 @@ import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
+import Page6 from './Page6';
 
 
 
@@ -173,7 +174,8 @@ function Page1() {
                         <div className="row main_row">
                           <div className="col-md-10 col-sm-11 mx-auto main_col">
                             <div className="escroll"></div>
-                          <Page4/>
+                          {/* <Page4/> */}
+                          <Page6/>
                           </div>
                         </div>
                       </div>
