@@ -1,7 +1,6 @@
 // TT_cards.js
 
 import React from 'react';
-import './style.css';
 
 function TT_cards({ title, body, img, ids}) {
   const bgImageStyle = {
