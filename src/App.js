@@ -10,7 +10,7 @@ import "./component/Chirag/style3.css";
 import video2 from "./video2.mp4";
 function App() {
   return (
-    <>
+    <div className="app">
       <video autoPlay loop muted id="video">
         <source src={video2} type="video/mp4" />
       </video>
@@ -24,7 +24,7 @@ function App() {
       <div className="tt">
         <TT_Pack />
       </div>
-    </>
+    </div>
   );
 }
 
