@@ -60,91 +60,48 @@ function Page1() {
 
    useEffect(()=>{
     const container = document.querySelector(".main_container");
-    const econtainer = document.querySelector(".emain_container");
-    const row1 = document.getElementById("translate1");
-    const row2 = document.getElementById("translate2");
+    const app = document.querySelector(".app");
     let scrollThreshold = container.offsetWidth;
     window.addEventListener('resize', function() {
       scrollThreshold = container.offsetWidth;
     });
-    console.log(scrollThreshold);
+    // console.log(scrollThreshold);
     let scrolline = document.querySelector(".scroll");
 
     container.addEventListener("wheel", (e) => {
       e.preventDefault();
-
+      
       if (scrollThreshold > 1900 && container.scrollLeft > scrollThreshold) {
         if (container.scrollLeft > scrollThreshold) {
           container.scrollTop += e.deltaY;
           scrolline.style.width = container.scrollLeft + "px";
-          console.log(container.scrollTop);
-          // console.log(container.scrollLeft);
+          // console.log(container.scrollTop);
+          
           if (container.scrollTop === 0) {
             container.scrollLeft += e.deltaY;
           }
-          if(container.scrollTop>=1050){
-          const first=document.getElementById('first');
-          const second=document.getElementById('second');
-          const third=document.getElementById('third');
-          const imgrol3=document.getElementById('imgrol1');
-          const imgrol2=document.getElementById('imgrol2');
-         const imgrol1=document.getElementById('imgrol3');
-         const zoom=document.getElementById('zoom');
-         first.classList.add('movement');
-         third.classList.add('movement');
-         second.classList.add('movementr');
-         imgrol1.classList.add('imgrol');
-         imgrol3.classList.add('imgrol');
-         imgrol2.classList.add('imgrol');
-         zoom.classList.add('zoom');
-        }           
+                
         }
       } else if (container.scrollLeft > scrollThreshold + 45) {
         container.scrollTop += e.deltaY;
         scrolline.style.width = container.scrollLeft + "px";
-        console.log(container.scrollTop);
-
-        if(container.scrollTop>=1050){
-          const first=document.getElementById('first');
-          const second=document.getElementById('second');
-          const third=document.getElementById('third');
-          const imgrol3=document.getElementById('imgrol1');
-          const imgrol2=document.getElementById('imgrol2');
-         const imgrol1=document.getElementById('imgrol3');
-         const zoom=document.getElementById('zoom');
-         first.classList.add('movement');
-         third.classList.add('movement');
-         second.classList.add('movementr');
-         imgrol1.classList.add('imgrol');
-         imgrol3.classList.add('imgrol');
-         imgrol2.classList.add('imgrol');
-         zoom.classList.add('zoom');
-        }         
-        // if(container.scrollTop>600 && container.scrollTop<1000){
-        //   const x = -(0.250*container.scrollTop)+200;
-        //   console.log(x);
-        //   row1.style.transform = `translateX(${x}%)`;
-        //   row2.style.transform = `translateX(${x}%)`;
-        // }
-        // console.log(container.scrollLeft);
+        // console.log(container.scrollTop);
         if (container.scrollTop === 0) {
           container.scrollLeft += e.deltaY;
         }
       } 
       else {
-        container.scrollLeft += e.deltaY;
-        console.log(container.scrollLeft);
+        if(container.scrollLeft === 0 && e.deltaY<=0){
+            console.log("hi");
+        }else{
+          container.scrollLeft += e.deltaY;
+        }
         scrolline.style.width = container.scrollLeft + "px";
-        // console.log(container.scrollLeft);
       }
-      econtainer.addEventListener('wheel',(e)=>{
-        e.preventDefault();
-        console.log(e.deltaX);
-      })
     });
-   },[])
-   
 
+    
+   },[])
 
   return (
     <>
