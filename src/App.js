@@ -11,11 +11,10 @@ import video2 from "./video2.mp4";
 function App() {
   return (
     <div className="app">
-      <video autoPlay loop muted id="video">
-        <source src={video2} type="video/mp4" />
-      </video>
       <div className="mainpage">
-        <Navbar />
+        <video autoPlay loop muted id="video">
+          <source src={video2} type="video/mp4" />
+        </video>
         <Mainbody />
       </div>
       <div className="page">
@@ -25,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;

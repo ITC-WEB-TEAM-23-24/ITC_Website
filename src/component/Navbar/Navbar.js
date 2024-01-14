@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logoImage from "./logo.png";
 import "./Navbar.css";
-import "../fonts.css";
+import "../../fonts.css";
 import iconsvg from "./icon.svg";
 import { motion, AnimatePresence } from "framer-motion";
 // import { Link } from "react-router-dom";
