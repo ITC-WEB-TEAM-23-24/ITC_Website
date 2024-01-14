@@ -21,9 +21,6 @@ function App() {
       <div className="page">
         <Page1 />
       </div>
-      <div className="tt">
-        <TT_Pack />
-      </div>
     </div>
   );
 }

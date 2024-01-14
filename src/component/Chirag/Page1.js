@@ -4,9 +4,7 @@ import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
 import Page6 from './Page6';
-
-
-
+import TT_Pack from '../techteam';
 
 function Page1() {
 
@@ -186,6 +184,9 @@ function Page1() {
             </div>
             <div className="row pg4row"> 
             <Page5/>
+            </div>
+            <div className="tt pg4row"> 
+                <TT_Pack />
             </div>
           </div>
         </div>
