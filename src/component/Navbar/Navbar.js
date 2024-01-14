@@ -4,11 +4,12 @@ import "./Navbar.css";
 import "../fonts.css";
 import iconsvg from "./icon.svg";
 import { motion, AnimatePresence } from "framer-motion";
+// import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 
 function Navbar() {
   const [onTop, setonTop] = useState(true);
-  const [sidebarOpen, setsidebar] = useState(false);
+  const [sidebarOpen, setsidebarOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +18,7 @@ function Navbar() {
         setonTop(false);
       } else {
         setonTop(true);
-        setsidebar(false);
+        setsidebarOpen(false);
       }
     };
 
@@ -38,10 +39,8 @@ function Navbar() {
   ];
 
   const handlesidebar = () => {
-    setsidebar(!sidebarOpen);
+    setsidebarOpen(!sidebarOpen);
     console.log(sidebarOpen);
-    // const element = document.querySelector(".sidebar");
-    // element.classList.add(".animate");
   };
 
   return (
@@ -68,7 +67,9 @@ function Navbar() {
               }}
               className="navbar-logo"
             >
+              {/* <Link to="/"> */}
               <img src={logoImage} alt="Logo" />
+              {/* </Link> */}
             </motion.div>
           )}
         </AnimatePresence>
@@ -91,7 +92,7 @@ function Navbar() {
                     }}
                     className={`links`}
                   >
-                    <a href={`#${link.text}`}>{link.text}</a>
+                    <motion.a href={`#${link.text}`}>{link.text}</motion.a>
                   </motion.li>
                 ))}
             </AnimatePresence>
@@ -121,13 +122,41 @@ function Navbar() {
                 strokeLinejoin="round"
                 cursor={"pointer"}
               >
-                <line x1="4" x2="20" y1="12" y2="12" />
-                <line x1="4" x2="20" y1="6" y2="6" />
-                <line x1="4" x2="20" y1="18" y2="18" />
+                <motion.line
+                  animate={{ opacity: sidebarOpen ? 0 : 1 }}
+                  x1="5"
+                  x2="19"
+                  y1="6"
+                  y2="6"
+                />
+                <motion.line
+                  animate={{ rotate: sidebarOpen ? [0, 10, 45] : 0 }}
+                  x1="5"
+                  x2="19"
+                  y1="12"
+                  y2="12"
+                />
+                <motion.line
+                  animate={{
+                    rotate: sidebarOpen ? [0, -10, -45] : 0,
+                    duration: 5,
+                  }}
+                  x1="5"
+                  x2="19"
+                  y1="12"
+                  y2="12"
+                />
+                <motion.line
+                  animate={{ opacity: sidebarOpen ? 0 : 1, duration: 2 }}
+                  x1="5"
+                  x2="19"
+                  y1="18"
+                  y2="18"
+                />
               </svg>
             </motion.div>
             <AnimatePresence>
-              {sidebarOpen && (
+              {!onTop && sidebarOpen && (
                 <motion.div
                   initial={{ opacity: 1, zIndex: 10, x: "100%" }}
                   animate={{ opacity: 1, zIndex: 10, x: 0 }}
@@ -142,7 +171,7 @@ function Navbar() {
                   <div className="sidebar-links">
                     <ul>
                       {links.map((link, index) => (
-                        <li key={index} className={`links`}>
+                        <motion.li key={index}>
                           <AnimatePresence>
                             <motion.a
                               initial={{ opacity: 1, y: "100%" }}
@@ -152,14 +181,14 @@ function Navbar() {
                                 duration: 0.6,
                                 delay: 0.8,
                                 type: "spring",
-                                mass: 0.1,
+                                mass: 0.2,
                               }}
                               href={`#${link.text}`}
                             >
                               {link.text}
                             </motion.a>
                           </AnimatePresence>
-                        </li>
+                        </motion.li>
                       ))}
                     </ul>
                   </div>
