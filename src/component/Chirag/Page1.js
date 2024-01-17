@@ -91,8 +91,9 @@ function Page1() {
         }
       } 
       else {
-        if(container.scrollLeft === 0 && e.deltaY<=0){
-            console.log("hi");
+        if(container.scrollLeft === 0 && e.deltaY<=0){ 
+           
+            console.log("hi")
         }else{
           container.scrollLeft += e.deltaY;
         }
