@@ -172,21 +172,118 @@
 
     .tt_pack .cards {
         width: 100%;
-        padding: 0;
+        padding: 2rem 0;
     }
 
     .tt_card {
-        width: 90%; /* Adjust the width as needed */
-        margin: 10px auto; /* Centers the card and adds some space between them */
-        position: relative; /* Resets the position */
-        font-size: 4vw; /* Adjust the base font size for the card */
+        width: 70%; 
+        margin: 10px auto;
+        position: relative;
+        font-size: 4vw; 
+
     }
 
     .tt_card .title {
-        font-size: 5vw; /* Larger font size for the title */
+        font-size: 2.5vw; 
     }
 
     .tt_card .body {
-        font-size: 3.5vw;
+        font-size: 2vw;
+        opacity: 1;
+        bottom: 10%;
     }
+
+    .tt_pack .sidebar {
+        display: static;
+        width: 80%;
+        height: max-content;
+        margin: 1rem auto;
+        writing-mode: horizontal-tb;
+        border: none;
+        background-color: transparent;
+    }
+
+    .tt_pack .sidebar span {
+        position: static;
+        font-size: 5vw;
+        margin: 10px auto;
+    }
+
+    .tt_card:hover {
+        transform: none;
+    }
+
+    #tt_card1{
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    #tt_card2{
+        top: -10vw  ;
+        left: 10vw;
+        z-index: 2;
+    }
+
+    #tt_card3{
+        top: -20vw;
+        left: 20vw;
+        z-index: 3;
+    }
+
+    #tt_card4{
+        top: -30vw;
+        left: 10vw;
+        z-index: 4;
+    }
+
+    #tt_card5{
+        top: -40vw;
+        left: 0vw;
+        z-index: 5;
+    }
+
+    #tt_card6{
+        top: -50vw;
+        left: 10vw;
+        z-index: 6;
+    }
+
+    #tt_card7{
+        top: -60vw;
+        left: 20vw;
+        z-index: 7;
+    }
+
+    #tt_card8{
+        top: -70vw;
+        left: 10vw;
+        z-index: 8;
+    }
+
+    #tt_card9{
+        top: -80vw;
+        left: 0vw;
+        z-index: 9;
+    }
+
+    #tt_card10{
+        top: -90vw;
+        left: 10vw;
+        z-index: 10;
+    }
+
+    #tt_card11{
+        top: -100vw;
+        left: 20vw;
+        z-index: 11;
+    }
+
+    #tt_card12{
+        top: -110vw;
+        left: 10vw;
+        z-index: 12;
+    }
+
+    
 }

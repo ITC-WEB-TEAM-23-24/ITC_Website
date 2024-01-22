@@ -79,9 +79,12 @@ function TT_Pack() {
     ]
     return (
         <div className='tt_pack'>
+            <div className='sidebar'>
+                <span>TECH TEAMS</span>
+            </div>
             <div className='cards'>
                 {cards.map((card) => (
-                    <div className="tt_pack">
+                    <div>
                         <TT_cards 
                             title={card.title} 
                             body={card.body} 
@@ -91,10 +94,6 @@ function TT_Pack() {
                     </div>
                 ))}
             </div>           
-            <div className='sidebar'>
-                <span>TECH TEAMS</span>
-            </div>
-
         </div>
     )
 }
