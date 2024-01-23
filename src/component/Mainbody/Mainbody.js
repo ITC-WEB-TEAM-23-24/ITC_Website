@@ -6,7 +6,7 @@ import handleIconClick from '../Navbar/Navbar';
 
 function Mainbody() {
   const firstletter = {
-    color: '#FFC300',
+    color: 'lime',
   };
 
   const [animationStep, setAnimationStep] = useState(0);

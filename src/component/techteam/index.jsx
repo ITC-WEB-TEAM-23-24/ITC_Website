@@ -79,9 +79,6 @@ function TT_Pack() {
     ]
     return (
         <div className='tt_pack'>
-            <div className='sidebar'>
-                <span>TECH TEAMS</span>
-            </div>
             <div className='cards'>
                 {cards.map((card) => (
                     <div>
