@@ -52,6 +52,15 @@ html{
     justify-content: center;
 }
 
+.left-part{
+    width: 100%;
+    min-height: 95vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
 
 .imagecols{
     width: 85%;
@@ -110,14 +119,14 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .right-partrows{
-   padding: 2rem 0;
+   padding: 2rem 2rem;
    /* background-color: blueviolet; */
-   width: 100%;
+   width: 95%;
    min-height: 95vh;
 }
 .right-partcols{
@@ -133,8 +142,8 @@ html{
    /* background-color: brown; */
    height: 100%;
    width: 100%;
-   margin: 1rem 0;
-   padding: 1rem 0rem ;
+   margin: 1rem 1rem;
+   padding: 1rem 0.5rem ;
    overflow: hidden;
 }
 
@@ -150,7 +159,7 @@ html{
 }
 
 .col-left-part{
-    max-width: 80%;
+    max-width: 40%;
     height: 90%;
     display: flex;
     justify-content: flex-start;
@@ -188,8 +197,8 @@ html{
 }
 
 .movement{
-    transition: all 1s ease;
-    animation: left 1s linear 500ms;
+    transition: all 2s ease;
+    animation: left 2s linear 500ms;
     visibility: visible;
     
 }
@@ -202,8 +211,8 @@ html{
     }   
 }
 .movementr{
-    transition: all 1s ease;
-    animation: right 1s linear 500ms;
+    transition: all 2s ease;
+    animation: right 2s linear 500ms;
     visibility: visible;
     
 }
@@ -216,7 +225,7 @@ html{
     }   
 }
 .imgrol{
-    animation: rotate 1s linear 500ms;
+    animation: rotate 2s linear 500ms;
 }
 @keyframes rotate {
     0%{
@@ -228,8 +237,8 @@ html{
 }
 
 .zoom{
-    transition: all 1s ease;
-    animation: zoom 1s linear 500ms;
+    transition: all 2s ease;
+    animation: zoom 2s linear 500ms;
 }
 
 @keyframes zoom {

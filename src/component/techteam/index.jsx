@@ -81,7 +81,7 @@ function TT_Pack() {
         <div className='tt_pack'>
             <div className='cards'>
                 {cards.map((card) => (
-                    <div>
+                    <div key={card.id}>
                         <TT_cards 
                             title={card.title} 
                             body={card.body} 

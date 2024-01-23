@@ -19,7 +19,7 @@ function Page5() {
                       <div class="row pg4rows">
                           <div class="col-11 mx-auto pg4cols">
                                <div class="row main-rowpg4">
-                                  <div class="col-sm-4 left-cols mx-auto none">
+                                  <div class="col-sm-4 none left-cols mx-auto">
                                       <div class="left-part">
                                           <div class="imagecols" id="zoom" >
                                               <img src={""} class="img-fluid" alt=""/>
