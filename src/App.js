@@ -8,6 +8,7 @@ import "./component/Chirag/sytle1.css";
 import "./component/Chirag/style2.css";
 import "./component/Chirag/style3.css";
 import video2 from "./video2.mp4";
+import Hexgrid from "./component/Techclubs/index"
 function App() {
   return (
     <div className="app">
@@ -20,8 +21,12 @@ function App() {
       </div>
       <div className="page">
         <Page1 />
+        
       </div>
+ {/* <Techclubs/> */}
+ <Hexgrid/>
     </div>
+    
   );
 }
 
