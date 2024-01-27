@@ -3,62 +3,62 @@
         {
             "name": "Electronics and Robotics Club",
             "description": "Explore the world of electronics and robotics",
-            "imageUrl": "./erc.png"
+            "imageUrl": "./img/erc.png"
         },
         {
             "name": "Aeromodelling Club",
             "description": "Design and build model aircrafts",
-            "imageUrl": "./Aero.png"
+            "imageUrl": "./img/Aero.png"
         },
         {
             "name": "BioX Club",
             "description": "Innovate at the intersection of biology and technology",
-            "imageUrl": "./BioX.png"
+            "imageUrl": "./img/BioX.png"
         },
         {
             "name": "Energy Club",
             "description": "Explore renewable energy technologies",
-            "imageUrl": "./energy.png"
+            "imageUrl": "./img/energy.png"
         },
         {
             "name": "Web and Coding Club",
             "description": "Code",
-            "imageUrl": "./WnCC.png"
+            "imageUrl": "./img/WnCC.png"
         },
         {
             "name": "Web Team",
             "description": "Developing the web, one line of code at a time",
-            "imageUrl": "./web.png"
+            "imageUrl": "./img/web.png"
         },
         {
             "name": "Krittika Club",
             "description": "Astronomy and astrophysics for enthusiasts",
-            "imageUrl": "./krittika.png"
+            "imageUrl": "./img/krittika.png"
         },
         {
             "name": "Tinkerers Lab",
             "description": "A space for creative minds to build and tinker",
-            "imageUrl": "./TL.png"
+            "imageUrl": "./img/TL.png"
         },
         {
             "name": "ChemETL and Chemistry Club",
             "description": "Exploring the wonders of chemistry",
-            "imageUrl": "./chem.png"
+            "imageUrl": "./img/chem.png"
         },
         {
             "name": "Maths and Physics Club",
             "description": "Delving into the mysteries of maths and physics",
-            "imageUrl": "./MnP.png"
+            "imageUrl": "./img/MnP.png"
         },
         {
             "name": "Design Tnam",
             "description": "Crafting visual experiences and designs",
-            "imageUrl": "./design.png"
+            "imageUrl": "./img/design.png"
         },
         {
             "name": "Media Team",
             "description": "Capturing moments, telling stories",
-            "imageUrl": "./media.png"
+            "imageUrl": "./img/media.png"
         }
     ],
     "BioX Club": [

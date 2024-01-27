@@ -9,6 +9,7 @@ const HexGrid = () => {
 
     useEffect(() => {
         setHexagons(clubData.initialData); // Set initial data
+        console.log(clubData.initialData)
     }, []);
 
     const handleClick = (clubName) => {

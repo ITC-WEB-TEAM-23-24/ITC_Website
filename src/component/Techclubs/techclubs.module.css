@@ -90,18 +90,11 @@
 }
 
 .techClubsArticle:hover .techClubsImg {
-  transform: translate(-50%, -50%);
   opacity: 0.1;
 }
 
 .techClubsImg {
-  width: var(--size);
-  height: var(--size);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform-origin: 0% 50%;
+  height: 60%;
   transition: .75s;
   clip-path: url(#hexagono);
   clip-path: inherit;
@@ -150,3 +143,5 @@ body > .techClubsParagraph {
   margin: 2rem 0 1rem calc(var(--size) * .5);
   font-weight: 200;
 }
+
+
