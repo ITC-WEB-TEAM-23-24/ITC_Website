@@ -1,0 +1,147 @@
+.techClubsApp {
+  text-align: center;
+}
+.techclubsname {
+ font-size: 40px;
+ color: red;
+}
+
+.techClubsLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .techClubsLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.techClubsHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.techClubsLink {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* AutoHexGrid.css */
+/* *, *:after, *:before {box-sizing: inherit;} */
+/* * {margin:0;padding:0;border: 0 none; position: relative;}/ */
+:root {
+  --sinSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --Nhexa: 4;
+  --gap: 2vw;
+  --size: calc(calc(100vw / var(--Nhexa)) - var(--gap));
+}
+@media only screen and (min-width: 1100px) {:root {--Nhexa:6;}}
+@media only screen and (max-width: 600px) {
+  :root {--Nhexa: 2;}
+  body {margin-right: calc(var(--size) * .3);}
+}
+/* html {
+  background: #e9e9e7;
+  box-sizing: border-box;
+  font-family: var(--sinSerif);
+  font-size: 1rem;
+} */
+/* body {
+  padding-right: calc(var(--size) * .5);
+  overflow-X: hidden;
+  hyphens: auto;
+} */
+
+.techClubsSection {
+  margin: calc(var(--size) * .5) auto 0;
+  width: calc(var(--size) * calc(var(--Nhexa) - 1));
+  display: grid;
+  grid-template-columns: repeat(var(--Nhexa), 1fr);
+  grid-gap: var(--gap);
+}
+
+.techClubsArticle {
+  background: cadetblue;
+  width: var(--size); 
+  height: calc(var(--size) / 1.1111111);
+  clip-path: url(#hexagono);
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  margin-right: calc(var(--size) / 2);
+  color: #fff;
+  overflow: hidden;
+}
+
+.techClubsArticle:nth-child(2n) {
+  margin: calc(var(--size) * -.5) calc(var(--size) * -.25) 0 calc(var(--size) * -.75);
+}
+
+.techClubsArticle:hover .techClubsImg {
+  opacity: 0.1;
+}
+
+.techClubsImg {
+  height: 60%;
+  transition: .75s;
+  clip-path: url(#hexagono);
+  clip-path: inherit;
+  z-index:  10;
+}
+
+.techClubsImg:hover {
+  scale: 1.1;
+}
+
+.techClubsFigure {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 50%;
+  height: 100%;
+  font-size: calc(9 / var(--Nhexa) * 1vw);
+  line-height: 1;
+  color: #fff;
+  transition: .75s .05s;
+  text-align: center;
+}
+
+.techClubsFigure p {
+  font-size: 70%;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.techClubsTitle {
+  width: 100vw;
+  background: #2c2cac;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: calc(var(--size) * .55 + var(--gap));
+  padding: 2vh 0;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+}
+
+body > .techClubsParagraph {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem calc(var(--size) * .5);
+  font-weight: 200;
+}
+
+

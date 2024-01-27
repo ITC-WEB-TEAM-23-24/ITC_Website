@@ -8,6 +8,7 @@ import "./component/Chirag/style3.css";
 import React, { useRef, useEffect } from "react";
 import Newpage from "./component/Chirag/Newpage";
 
+import Hexgrid from "./component/Techclubs/index"
 function App() {
   return (
     <div className="app">
@@ -20,7 +21,10 @@ function App() {
       <div className="techteam">
         {/* <TT_Pack /> */}
       </div>
+ {/* <Techclubs/> */}
+ <Hexgrid/>
     </div>
+    
   );
 }
 

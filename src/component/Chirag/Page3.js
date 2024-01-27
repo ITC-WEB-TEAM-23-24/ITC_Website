@@ -21,7 +21,7 @@ function Page3() {
         </div>
         <div className="lower_part col-md-12 col-12">
           <div className="row img-row">
-            <div className="col-2 mx-2 colcard">
+            <div className="col-md-2 col-4 mx-2 colcard">
               <div className="body">
                 <div className="card">
                   <div className="imgbox">
@@ -37,7 +37,7 @@ function Page3() {
                 </div>
               </div>
             </div>
-            <div className="col-2 mx-2 colcard">
+            <div className="col-md-2 col-4 mx-2 colcard">
               <div className="body">
                 <div className="card">
                   <div className="imgbox">
@@ -53,7 +53,7 @@ function Page3() {
                 </div>
               </div>
             </div>
-            <div className="col-2 mx-2 colcard">
+            <div className="col-md-2 col-4 colcard">
               <div className="body">
                 <div className="card">
                   <div className="imgbox">
@@ -69,7 +69,7 @@ function Page3() {
                 </div>
               </div>
             </div>
-            <div className="col-2 mx-2 colcard">
+            <div className="col-md-2 col-4 colcard">
               <div className="body">
                 <div className="card">
                   <div className="imgbox">
@@ -85,7 +85,7 @@ function Page3() {
                 </div>
               </div>
             </div>
-            <div className="col-2 mx-2 colcard">
+            <div className="col-md-2 col-4 colcard">
               <div className="body">
                 <div className="card">
                   <div className="imgbox">
