@@ -4,6 +4,7 @@ import "../../fonts.css";
 import ReactTyped from "react-typed";
 import handleIconClick from "../Navbar/Navbar";
 import Navbar from "../Navbar/Navbar";
+import video2 from "../../video2.mp4";  
 
 function Mainbody() {
   const firstletter = {
@@ -29,12 +30,15 @@ function Mainbody() {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve();
-      }, text.length * 100); // Adjust the delay as needed
+      }, text.length * 70); // Adjust the delay as needed
     });
   };
 
   return (
     <>
+      <video autoPlay loop muted id="video">
+        <source src={video2} type="video/mp4" />
+      </video>
       <Navbar />
       <div className="mainbody">
         <div className="mainbody-heading">
@@ -42,7 +46,7 @@ function Mainbody() {
           {animationStep >= 0 && (
             <ReactTyped
               strings={["NSTITUTE"]}
-              typeSpeed={100}
+              typeSpeed={50}
               showCursor={false}
             />
           )}
@@ -51,7 +55,7 @@ function Mainbody() {
           {animationStep >= 1 && (
             <ReactTyped
               strings={["ECHNICAL"]}
-              typeSpeed={100}
+              typeSpeed={50}
               showCursor={false}
             />
           )}
@@ -60,7 +64,7 @@ function Mainbody() {
           {animationStep >= 2 && (
             <ReactTyped
               strings={["OUNCIL"]}
-              typeSpeed={100}
+              typeSpeed={50}
               showCursor={false}
             />
           )}

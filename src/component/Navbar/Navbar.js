@@ -21,13 +21,47 @@ function Navbar() {
         setsidebarOpen(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    let clickCount = 0;
+
+    const handleOutsideClick = (e) => {
+      if (
+        sidebarOpen &&
+        e.target.className !== "sidebar" &&
+        e.target.className !== "sidebar-links" &&
+        e.target.className !== "lucide-menu" &&
+        e.target.className !== "lucide-menu-icon" &&
+        e.target.className !== "links" &&
+        e.target.className !== "sidebarlinkslist"
+      ) {
+        clickCount += 1;
+        console.log(clickCount);
+
+        if (clickCount === 2) {
+          setsidebarOpen(false);
+          clickCount = 0; // Reset click count after closing the sidebar
+        }
+      }
+    };
+
+    if (sidebarOpen) {
+      window.addEventListener("click", handleOutsideClick);
+    } else {
+      window.removeEventListener("click", handleOutsideClick);
+    }
+
+    return () => {
+      window.removeEventListener("click", handleOutsideClick);
+    };
+  }, [sidebarOpen]);
+
   // set the x value of below links such that they move to the rightmost corner of screen
   const links = [
     { text: "EVENTS", x: "48vw", delay: 1 },
@@ -169,9 +203,9 @@ function Navbar() {
                   className="sidebar"
                 >
                   <div className="sidebar-links">
-                    <ul>
+                    <ul className="sidebarlinkslist">
                       {links.map((link, index) => (
-                        <motion.li key={index}>
+                        <motion.li key={index} href={`#${link.text}`}>
                           <AnimatePresence>
                             <motion.a
                               initial={{ opacity: 1, y: "100%" }}
