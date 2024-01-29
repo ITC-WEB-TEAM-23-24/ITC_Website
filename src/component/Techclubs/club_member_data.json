@@ -1,0 +1,1314 @@
+{
+    "initialData": [
+        {
+            "name": "Electronics and Robotics Club",
+            "description": "Explore the world of electronics and robotics",
+            "imageUrl": "./img/erc.png"
+        },
+        {
+            "name": "Aeromodelling Club",
+            "description": "Design and build model aircrafts",
+            "imageUrl": "./img/Aero.png"
+        },
+        {
+            "name": "BioX Club",
+            "description": "Innovate at the intersection of biology and technology",
+            "imageUrl": "./img/BioX.png"
+        },
+        {
+            "name": "Energy Club",
+            "description": "Explore renewable energy technologies",
+            "imageUrl": "./img/energy.png"
+        },
+        {
+            "name": "Web and Coding Club",
+            "description": "Code",
+            "imageUrl": "./img/WnCC.png"
+        },
+        {
+            "name": "Web Team",
+            "description": "Developing the web, one line of code at a time",
+            "imageUrl": "./img/web.png"
+        },
+        {
+            "name": "Krittika Club",
+            "description": "Astronomy and astrophysics for enthusiasts",
+            "imageUrl": "./img/krittika.png"
+        },
+        {
+            "name": "Tinkerers Lab",
+            "description": "A space for creative minds to build and tinker",
+            "imageUrl": "./img/TL.png"
+        },
+        {
+            "name": "ChemETL and Chemistry Club",
+            "description": "Exploring the wonders of chemistry",
+            "imageUrl": "./img/chem.png"
+        },
+        {
+            "name": "Maths and Physics Club",
+            "description": "Delving into the mysteries of maths and physics",
+            "imageUrl": "./img/MnP.png"
+        },
+        {
+            "name": "Design Tnam",
+            "description": "Crafting visual experiences and designs",
+            "imageUrl": "./img/design.png"
+        },
+        {
+            "name": "Media Team",
+            "description": "Capturing moments, telling stories",
+            "imageUrl": "./img/media.png"
+        }
+    ],
+    "BioX Club": [
+        {
+            "Email Address": "anandithas2021@gmail.com",
+            "name": "Ananditha Somanngari ",
+            "Mail ID": "anandithas2021@gmail.com",
+            "Phone Number": 8639630018,
+            "LinkedIn": "https://www.linkedin.com/in/ananditha-somannagari-16ba0b24b?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/anand.i.tha?igsh=MWtkbGhnYzFxcTZ2YQ==",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b0309@iitb.ac.in",
+            "name": "Aditya Parsekar ",
+            "Mail ID": "dradityaparsekar@gmail.com",
+            "Phone Number": 9420977603,
+            "LinkedIn": "https://www.linkedin.com/in/aditya-parsekar-a82005252?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.comnamazing_adi?igsh=MWo4Nm1wN2J0czMxaA==",
+            "Index": 2
+        },
+        {
+            "Email Address": "22b1504@iitb.ac.in",
+            "name": "Yash Mehta",
+            "Mail ID": "yashmehta0825@gmail.com",
+            "Phone Number": 7058033690,
+            "LinkedIn": "https://www.linkedin.com/in/yash-mehta-473b29253/",
+            "Instagnam": "Not on Instagnam",
+            "Index": 4
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 3
+        },
+        {
+            "Email Address": "22b0428@iitb.ac.in",
+            "name": "Husayn Bootwala ",
+            "Mail ID": "husaynbootwala8051@gmail.com",
+            "Phone Number": 8770233482,
+            "LinkedIn": "https://www.linkedin.com/in/husayn-bootwala-558728244?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/bootwalahusayn14?igsh=MXZzanZkdHJnajYxbg==",
+            "Index": 6
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 7
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 8
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 9
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 10
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 11
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 12
+        }
+    ],
+    "Aeromodelling Club": [
+        {
+            "Email Address": "archmundada006@gmail.com",
+            "name": "Archit Mundada ",
+            "Mail ID": "archmundada006@gmail.com",
+            "Phone Number": 8766754753,
+            "LinkedIn": "https://www.linkedin.com/in/archmundada",
+            "Instagnam": "NaN",
+            "Index": 1
+        },
+        {
+            "Email Address": "priyanshifogat4876@gmail.com",
+            "name": "Priyanshi",
+            "Mail ID": "priyanshifogat4876@gmail.com",
+            "Phone Number": 7850809404,
+            "LinkedIn": ".",
+            "Instagnam": "https://www.instagnam.com/priyanshifogat/",
+            "Index": 2
+        },
+        {
+            "Email Address": "manas0210agarwal@gmail.com",
+            "name": "Manas Agrawal ",
+            "Mail ID": "manas0210agarwal@gmail.com",
+            "Phone Number": 8690887895,
+            "LinkedIn": "www.linkedin.com/in/manas-agrawal-908684222",
+            "Instagnam": "https://www.instagnam.com/manas_ag_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+            "Index": 3
+        },
+        {
+            "Email Address": "shahkunj2004@gmail.com",
+            "name": "Kunj Vipul Shah",
+            "Mail ID": "shahkunj2004@gmail.com",
+            "Phone Number": 9510208166,
+            "LinkedIn": "https://www.linkedin.com/in/kunj-shah-453373250/",
+            "Instagnam": "https://www.instagnam.com/kunjshahmbles?igsh=MTY2Y2h3c3Bndnllcw==",
+            "Index": 4
+        },
+        {
+            "Email Address": "22b0025@iitb.ac.in",
+            "name": "Om Soni",
+            "Mail ID": "omshreesoni3@gmail.com",
+            "Phone Number": 7000576175,
+            "LinkedIn": "https://www.linkedin.com/in/om-soni-00ba13296/",
+            "Instagnam": "https://www.instagnam.com/omss_law/",
+            "Index": 5
+        },
+        {
+            "Email Address": "palak04udr@gmail.com",
+            "name": "Palak Jain ",
+            "Mail ID": "palak04udr@gmail.com",
+            "Phone Number": 9460991561,
+            "LinkedIn": "https://www.linkedin.com/in/palak-jain-99b921257",
+            "Instagnam": "https://www.instagnam.com/palak_j.4?igsh=MXhnM3FmY2dvNDJ3MA==",
+            "Index": 6
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "ChemETL and Chemistry Club": [
+        {
+            "Email Address": "dhruvnamnani1010@gmail.com",
+            "name": "Dhruv namnani ",
+            "Mail ID": "dhruvnamnani1010@gmail.com",
+            "Phone Number": 8602094123,
+            "LinkedIn": "https://www.linkedin.com/in/dhruv-namnani-b4120b250",
+            "Instagnam": "https://www.instagnam.com/_dhruv__10/",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b2736@iitb.ac.in",
+            "name": "Suketu Datta",
+            "Mail ID": "suk.datta1106@gmail.com",
+            "Phone Number": 7767846363,
+            "LinkedIn": "https://www.linkedin.com/in/suketu-datta-8a7b07256/",
+            "Instagnam": "https://www.instagnam.com/suda1124/",
+            "Index": 2
+        },
+        {
+            "Email Address": "ronittripathy2004@gmail.com",
+            "name": "Ronit Tripathy ",
+            "Mail ID": "ronittripathy2004@gmail.com",
+            "Phone Number": 7978595013,
+            "LinkedIn": " https://in.linkedin.com/in/ronit-tripathy-152846250",
+            "Instagnam": "instagnam.com/ronit_tripathy/",
+            "Index": 3
+        },
+        {
+            "Email Address": "22b0308@iitb.ac.in",
+            "name": "Vipul Muskan",
+            "Mail ID": "muskanvipul40@gmail.com",
+            "Phone Number": 9123164875,
+            "LinkedIn": "https://www.linkedin.com/in/vipul-muskan-981480284/",
+            "Instagnam": "https://www.instagnam.com/vipulmuskan8?igsh=bXJ0d2Y1d29kc2s4",
+            "Index": 4
+        },
+        {
+            "Email Address": "parth04rasal@gmail.com",
+            "name": "Parth Rasal",
+            "Mail ID": "parth04rasal@gmail.com",
+            "Phone Number": 8291380069,
+            "LinkedIn": "www.linkedin.com/in/parth04rasal",
+            "Instagnam": "https://www.instagnam.com/parth04_rasal/",
+            "Index": 5
+        },
+        {
+            "Email Address": "aryanbagdia.ab@gmail.com",
+            "name": "Aryan Bagdia ",
+            "Mail ID": "aryanbagdia.ab@gmail.com",
+            "Phone Number": 7020596362,
+            "LinkedIn": "https://www.linkedin.com/in/aryanbagdia?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/aryanbagdia?igsh=MWg2aXhqMGtxdjl1aQ==",
+            "Index": 6
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Tinkerers Lab": [
+        {
+            "Email Address": "ashita.iitb@gmail.com",
+            "name": "Ashita Dutt Sharma ",
+            "Mail ID": "ashita.iitb@gmail.com",
+            "Phone Number": 8880060000,
+            "LinkedIn": "www.linkedin.com/in/ashita28",
+            "Instagnam": "Na",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b0659@iitb.ac.in",
+            "name": "Sujay",
+            "Mail ID": "somanisujay2004@gmail.com",
+            "Phone Number": 8010427850,
+            "LinkedIn": "https://www.linkedin.com/in/sujaysomani?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "I'm on Instagnam as @sujay_1262. Install the app to follow my photos and videos. https://www.instagnam.com/sujay_1262?igsh=YzljYTk1ODg3Zg==",
+            "Index": 2
+        },
+        {
+            "Email Address": "karrthikradhakrishnan04@gmail.com",
+            "name": "Karrthik Radhakrishnan",
+            "Mail ID": "karrthikradhakrishnan04@gmail.com",
+            "Phone Number": 8850857896,
+            "LinkedIn": "https://www.linkedin.com/in/karrthik-radhakrishnan-34bb07274/",
+            "Instagnam": "https://www.linkedin.com/in/karrthik-radhakrishnan-34bb07274/",
+            "Index": 3
+        },
+        {
+            "Email Address": "22b4523@iitb.ac.in",
+            "name": "Ved Munj",
+            "Mail ID": "vedmunj224@gmail.com",
+            "Phone Number": 8268515989,
+            "LinkedIn": "https://in.linkedin.com/in/ved-munj-9b51281b4",
+            "Instagnam": "Non existent ",
+            "Index": 4
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Energy Club": [
+        {
+            "Email Address": "22B1519@iitb.ac.in",
+            "name": "Anika Jain",
+            "Mail ID": "anika.jain1048@gmail.com",
+            "Phone Number": 9530096167,
+            "LinkedIn": "https://www.linkedin.com/in/anika-jain-897423297?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/jain__anika?igsh=MWFqdWwyZnRmeGFqdA==",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b2116@iitb.ac.in",
+            "name": "Abhinay Yashwante ",
+            "Mail ID": "abhiyashwante4290@gmail.com",
+            "Phone Number": 9322030277,
+            "LinkedIn": "linkedin.com/in/abhinay-yashwante-423024257",
+            "Instagnam": "https://www.instagnam.com/abhi_yashwante?utm_source=qr",
+            "Index": 2
+        },
+        {
+            "Email Address": "divyanshu020403@gmail.com",
+            "name": "Divyanshu rathore ",
+            "Mail ID": "divyanshu020403@gmail.com ",
+            "Phone Number": 9460468464,
+            "LinkedIn": "https://www.linkedin.com/in/divyanshu-rathore-058b60227?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/idivyanshurathore?igsh=ZHcxemF2a2Y0eTdz",
+            "Index": 3
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Electronics and Robotics Club": [
+        {
+            "Email Address": "prasad.ayush0511@gmail.com",
+            "name": "Ayush Prasad",
+            "Mail ID": "prasad.ayush0511@gmail.com",
+            "Phone Number": 6353503341,
+            "LinkedIn": "https://www.linkedin.com/in/ayush-prasad-bbab77254/",
+            "Instagnam": "https://instagnam.com/kingayush_05/?next=%2F",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b4227@iitb.ac.in",
+            "name": "Saurabh Gupta",
+            "Mail ID": "saurabhgupta0342@gmail.com",
+            "Phone Number": 9508709729,
+            "LinkedIn": "https://www.linkedin.com/in/saurabh-gupta-19803324a/",
+            "Instagnam": "https://www.instagnam.com/saurabhgupta4269/",
+            "Index": 2
+        },
+        {
+            "Email Address": "22b0747@iitb.ac.in",
+            "name": "Arnaman Pillai",
+            "Mail ID": "No",
+            "Phone Number": 9930535901,
+            "LinkedIn": "https://www.linkedin.com/in/arnaman-pillai-080a21222?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/arnaman_pillai?igsh=MW9pdHdvcDJwNnZoaQ==",
+            "Index": 3
+        },
+        {
+            "Email Address": "22b3927@iitb.ac.in",
+            "name": "Aryan namboli ",
+            "Mail ID": "aryaniitb.2004@gmail.com",
+            "Phone Number": 7898169485,
+            "LinkedIn": "https://www.linkedin.com/in/aryan-namboli-254869253?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/aryaniitb?igsh=Y3Rmb2ZjcnptOGlu",
+            "Index": 4
+        },
+        {
+            "Email Address": "kaustavsaha2004@gmail.com",
+            "name": "Kaustav Saha",
+            "Mail ID": "kaustavsaha2004@gmail.com",
+            "Phone Number": 8944078285,
+            "LinkedIn": "https://www.linkedin.com/in/kaustav-saha-450a87253?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "Instagnam": "https://www.instagnam.com/kaustavsaha04/",
+            "Index": 5
+        },
+        {
+            "Email Address": "22B3907@iitb.ac.in",
+            "name": "Shiwani Mishra",
+            "Mail ID": "shiwanimishra418@gmail.com",
+            "Phone Number": 9576870986,
+            "LinkedIn": "https://www.linkedin.com/in/shiwani-mishra-202350294?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/shiwani_mishra05?igsh=OW0zMjlzNGNzdGZu",
+            "Index": 6
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Web and Coding Club": [
+        {
+            "Email Address": "22B0988@iitb.ac.in",
+            "name": "Deeksha Dhiwakar",
+            "Mail ID": "deeksha4305@gmail.com",
+            "Phone Number": 9442136277,
+            "LinkedIn": "https://in.linkedin.com/in/deeksha-dhiwakar-47b546272",
+            "Instagnam": "https://www.instagnam.com/deeekshaa_4?igsh=ZWNla3JnamZyczNt&utm_source=qr",
+            "Index": 1
+        },
+        {
+            "Email Address": "22B0911@iitb.ac.in",
+            "name": "Ahil Khan",
+            "Mail ID": "ahilkhanjnv@gmail.com",
+            "Phone Number": 8441848563,
+            "LinkedIn": "https://www.linkedin.com/in/ahil-khan-0899b3251",
+            "Instagnam": "https://www.instagnam.com/khan_ahil_iitb?igsh=cXd3a3U2dWR6MDMy",
+            "Index": 2
+        },
+        {
+            "Email Address": "22b2146@iitb.ac.in",
+            "name": "Shahu Patil",
+            "Mail ID": "shahuppatil0707@gmail.com",
+            "Phone Number": 9146050850,
+            "LinkedIn": "https://www.linkedin.com/in/shahu-patil-033a24279?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/shahupatil07?igsh=MWNkdTJobXhma2ZsZg==",
+            "Index": 3
+        },
+        {
+            "Email Address": "dsuman9704@gmail.com",
+            "name": "Divyanshu Suman",
+            "Mail ID": "dsuman9704@gmail.com",
+            "Phone Number": 7668192399,
+            "LinkedIn": "https://www.linkedin.com/in/divyanshusuman",
+            "Instagnam": "https://www.instagnam.com/skillingshark",
+            "Index": 4
+        },
+        {
+            "Email Address": "22B0453@iitb.ac.in",
+            "name": "Astha Sahu",
+            "Mail ID": "aasthasahoo4@gmail.com",
+            "Phone Number": 8144151551,
+            "LinkedIn": "https://www.linkedin.com/in/astha-sahu-b4b490252?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/aastha.cpp",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Design Team": [
+        {
+            "Email Address": "22b0070@iitb.ac.in",
+            "name": "Devesh Mittal",
+            "Mail ID": "devesh.mittal2004@gmail.com",
+            "Phone Number": 8355805193,
+            "LinkedIn": "https://www.linkedin.com/in/devesh-mittal-854213205/",
+            "Instagnam": "https://www.instagnam.com/the_best_metall/",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b0304@iitb.ac.in",
+            "name": "Akshit Singhal ",
+            "Mail ID": "akshitsinghal819@gmail.com",
+            "Phone Number": 8824428661,
+            "LinkedIn": "https://www.linkedin.com/in/akshit-singhal-7726a5250",
+            "Instagnam": "https://www.instagnam.com/akshit_.ak47?igsh=ZGs0Z28xNHZiM3Fq",
+            "Index": 2
+        },
+        {
+            "Email Address": "mishrasarthak1520@gmail.com",
+            "name": "Sarthak Mishra",
+            "Mail ID": "mishrasarthak1520@gmail.com",
+            "Phone Number": 9993193578,
+            "LinkedIn": "https://www.linkedin.com/in/sarthakm15",
+            "Instagnam": "https://www.instagnam.com/_sarthak_._mishra_",
+            "Index": 3
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Media Team": [
+        {
+            "Email Address": "dhruvpatelwrk@gmail.com",
+            "name": "Dhruv Patel",
+            "Mail ID": "dhruvpatelwrk@gmail.com",
+            "Phone Number": 8469495001,
+            "LinkedIn": "https://www.linkedin.com/in/dhruv-patel-8a5a74222?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/dhruv_patel953/",
+            "Index": 1
+        },
+        {
+            "Email Address": "22b1009@iitb.ac.in",
+            "name": "Mugdha Bilotia ",
+            "Mail ID": "Mugdhabilotia2107@gmail.com",
+            "Phone Number": 9602120272,
+            "LinkedIn": "https://www.linkedin.com/in/mugdha-bilotia-487060280/",
+            "Instagnam": "https://www.instagnam.com/mugdhaa_21/",
+            "Index": 2
+        },
+        {
+            "Email Address": "22B1213@iitb.ac.in",
+            "name": "Sachi Deshmukh",
+            "Mail ID": "sachi13740@gmail.com",
+            "Phone Number": 9175968016,
+            "LinkedIn": "www.linkedin.com/in/sachi-deshmukh-426223255",
+            "Instagnam": "https://www.instagnam.com/im_sachi03?igsh=MWp4NWR0MDI0cmR4bg==",
+            "Index": 3
+        },
+        {
+            "Email Address": "22b4216@iitb.ac.in",
+            "name": "Santhan Dasari ",
+            "Mail ID": "Santhanbobby7@gmail.com",
+            "Phone Number": 8978076570,
+            "LinkedIn": "https://www.linkedin.com/in/santhan-dasari-5a987a229?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "Instagnam": "https://www.instagnam.com/santhan_750?igsh=MWZqaDEyanBjMXk5bg%3D%3D&utm_source=qr",
+            "Index": 4
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Krittika Club": [
+        {
+            "Email Address": "22b1812@iitb.ac.com",
+            "name": "Tanishk Mohan",
+            "Mail ID": "Astro00001234@gmail.com",
+            "Phone Number": 9548068089,
+            "LinkedIn": "https://www.linkedin.com/in/tanishk-mohan-762aaa250?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/tanishk_m23?igsh=em01ZWprY29kbTd5",
+            "Index": 1
+        },
+        {
+            "Email Address": "arhaan.ahmad2003@gmail.com",
+            "name": "Arhaan Ahmad",
+            "Mail ID": "arhaan.ahmad2003@gmail.com",
+            "Phone Number": 7579203230,
+            "LinkedIn": "https://www.linkedin.com/in/arhaan-ahmad-418191182/",
+            "Instagnam": "https://www.instagnam.com/arhaanahmad27/",
+            "Index": 2
+        },
+        {
+            "Email Address": "dildev098@gmail.com",
+            "name": "Dileep Devarajan",
+            "Mail ID": "dildev098@gmail.com",
+            "Phone Number": 7400352334,
+            "LinkedIn": "https://www.linkedin.com/in/dileep-d-69b258250?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
+            "Instagnam": "https://www.instagnam.com/dipeeep",
+            "Index": 3
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Web Team": [
+        {
+            "Email Address": "deepaksilaych@gmail.com",
+            "name": "Deepak Silaych ",
+            "Mail ID": "22b0660@gmail.com",
+            "Phone Number": 919001352750,
+            "LinkedIn": "https://www.linkedin.com/in/deepaksilaych",
+            "Instagnam": "https://www.instagnam.com/deepaksilaych",
+            "Index": 4
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ],
+    "Maths and Physics Club": [
+        {
+            "Email Address": "kanishk_modi@gmail.com",
+            "name": "Kanishk Modi",
+            "Mail ID": "kanishkmodi74506@gmail.com",
+            "Phone Number": 7000185242,
+            "LinkedIn": "https://www.linkedin.com/in/kanishk-iitb/",
+            "Instagnam": "https://www.instagnam.com/kanishk._.fr?igsh=ZmIxdm15cmhpd3Qz",
+            "Index": 1
+        },
+        {
+            "Email Address": "mrinalgarg673@gmail.com",
+            "name": "Mrinal Garg",
+            "Mail ID": "mrinalgarg673@gmail.com",
+            "Phone Number": 9646650156,
+            "LinkedIn": "\u2014",
+            "Instagnam": "www.instagnam.com/mrinalgarg_yd",
+            "Index": 2
+        },
+        {
+            "Email Address": "22b3318@iitb.ac.in",
+            "name": "Tejas G. Shende",
+            "Mail ID": "tejasiitbmath@gmail.com",
+            "Phone Number": 8450944292,
+            "LinkedIn": "https://www.linkedin.com/in/tejas-shende-398282253/",
+            "Instagnam": "https://www.instagnam.com/tejas.gs25/",
+            "Index": 3
+        },
+        {
+            "Email Address": "anandnara@iitb.ac.in",
+            "name": "Anand Narasimhan",
+            "Mail ID": "anand.nara123@gmail.com",
+            "Phone Number": 8778172917,
+            "LinkedIn": "https://www.linkedin.com/in/anand-narasimhan-295125232/",
+            "Instagnam": "https://www.instagnam.com/not_quite_anand/",
+            "Index": 4
+        },
+        {
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        },{
+            "Email Address": "",
+            "name": "",
+            "Mail ID": "",
+            "Phone Number": "",
+            "LinkedIn": "",
+            "Instagnam": "",
+            "Index": 5
+        }
+    ]
+}
