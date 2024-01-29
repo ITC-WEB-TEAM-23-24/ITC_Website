@@ -9,6 +9,8 @@ import Newpage from "./component/Chirag/Newpage";
 
 import Hexgrid from "./component/Techclubs/index"
 import video2 from "./assets/bg.mp4";
+import TT_Pack from "./component/techteam";
+import Footer from "./component/Footer";
 
 function App() {
   const [loadpage, setloadpage] = useState(false);
@@ -33,11 +35,9 @@ function App() {
 
   return (
     <div className="app">
-      <div>
         <video autoPlay muted id="video">
           <source src={video2} type="video/mp4" />
         </video>
-      </div>
       {loadpage && (
         <div className="maincontainer">
           <div className="mainpage">
@@ -45,6 +45,9 @@ function App() {
           </div>
           <div className="page">
             <Newpage />
+            <Hexgrid />
+            <TT_Pack />
+            <Footer />
           </div>
         </div>
       )}

@@ -1,11 +1,14 @@
 .tt_pack{
     margin: 0;
-    position: relative;
-}
+    width: 100%;
+    height: 100vh;  
+    margin: 10vh 0 5vh 0; 
+}   
 
 .tt_pack .cards{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .tt_card{
@@ -149,6 +152,11 @@
 
 
 @media (max-width: 768px) {
+    .tt_pack{
+        position: relative;
+        height: min-content;
+        margin: 0;
+    }
     .tt_pack {
         flex-direction: column;
         align-items: center;

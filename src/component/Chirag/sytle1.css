@@ -68,7 +68,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0,0,0,.3 );
 }
 
 .page_1 .img{

@@ -2,7 +2,7 @@
     display: block;
     position: relative;
     overflow: hidden;
-    background-color: black;
+    background-color: transparent;
     overflow: visible;
     height: 200vh;
   }

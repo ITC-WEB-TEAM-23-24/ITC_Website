@@ -77,6 +77,7 @@ function TT_Pack() {
             id: "tt_card12"
         },
     ]
+    
     return (
         <div className='tt_pack'>
             <div className='cards'>

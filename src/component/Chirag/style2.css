@@ -58,7 +58,7 @@ html{
 .imgrow{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: transparent;
     width: 100%;
     display: flex;
     align-items: center;

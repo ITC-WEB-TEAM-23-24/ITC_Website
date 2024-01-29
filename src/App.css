@@ -4,10 +4,6 @@ body{
   margin: 0;
 }
 
-.mainpage{
-  height: 100vh;
-}
-
 .tt{
   position: relative;
   height: 120vh;
@@ -16,7 +12,7 @@ body{
   position: relative;
 }
 
-#video{
+#video {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -25,11 +21,22 @@ body{
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -1;
 }
 
-.maincontainer{
+.maincontainer {
   animation: shade 12s forwards;
+  z-index: 1; 
+}
+
+.mainpage {
+  height: 100vh;
+  z-index: 2; 
+  margin: 0;
+}
+
+.page {
+  position: relative;
+  z-index: 2; 
 }
 
 @keyframes shade{
