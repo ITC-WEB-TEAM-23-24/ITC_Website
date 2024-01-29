@@ -1,11 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Mainbody from "./component/Mainbody/Mainbody";
-import Page1 from "./component/Chirag/Page1";
-import "./component/Chirag/sytle1.css"; // Assuming it's style1.css, not sytle1.css
+import "./component/Chirag/sytle1.css"; 
 import "./component/Chirag/style2.css";
 import "./component/Chirag/style3.css";
-import React, { useRef, useEffect } from "react";
+import React, { useRef,useState, useEffect } from "react";
 import Newpage from "./component/Chirag/Newpage";
 
 import Hexgrid from "./component/Techclubs/index"
@@ -34,16 +33,21 @@ function App() {
 
   return (
     <div className="app">
-      <video autoPlay loop muted id="video">
-        <source src={video2} type="video/mp4" />
-      </video>
-      <div className="mainpage">
-        <Navbar />
-        <Mainbody />
+      <div>
+        <video autoPlay muted id="video">
+          <source src={video2} type="video/mp4" />
+        </video>
       </div>
-      <div className="page">
-        <Page1 />
-      </div>
+      {loadpage && (
+        <div className="maincontainer">
+          <div className="mainpage">
+            <Mainbody />
+          </div>
+          <div className="page">
+            <Newpage />
+          </div>
+        </div>
+      )}
     </div>
     
   );

@@ -36,9 +36,6 @@ function Mainbody() {
 
   return (
     <>
-      <video autoPlay loop muted id="video">
-        <source src={video2} type="video/mp4" />
-      </video>
       <Navbar />
       <div className="mainbody">
         <div className="mainbody-heading">
