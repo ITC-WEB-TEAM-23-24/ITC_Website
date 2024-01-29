@@ -1,34 +1,18 @@
 .tt_pack{
     margin: 0;
-    display: flex;
+    position: relative;
 }
 
 .tt_pack .cards{
-    padding-left: 50px;
-}
-.tt_pack .sidebar{
-    width: 15%;
+    width: 100%;
     height: 100%;
-    position: absolute;
-    right: 0;
-    border-left: 5px solid black;
-    writing-mode: vertical-lr;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.tt_pack .sidebar span{
-    position: absolute;
-    right: 30%;
-    font-weight: 1000;
-    font-size: 100px;
-}
-
 
 .tt_card{
     -webkit-text-size-adjust: 100%;
     font-size: 3vw;
     box-sizing: border-box;
-    width: 35%;
+    width: 40%;
     height: fit-content;
     flex-direction: column;
     justify-content: space-between;
@@ -95,71 +79,71 @@
 
 #tt_card1{
     top: 0;
-    left: 1vw;
+    left: 3vw;
     z-index: 1;
 }
 
 #tt_card2{
     top: 2vw;
-    left: 18vw;
+    left: 20vw;
     z-index: 2;
 }
 
 #tt_card3{
     top: 4vw;
-    left: 46vw;
+    left: 48vw;
     z-index: 3;
 }
 #tt_card4{
     top: 8vw;
-    left: 31vw;
+    left: 33vw;
     z-index: 4;
 }
 
 #tt_card5{
     top: 10vw;
-    left: 1vw;
+    left: 3vw;
     z-index: 5;
 }
 
 #tt_card6{
     top: 14vw;
-    left: 18vw;
+    left: 20vw;
     z-index: 6;
 }
 
 #tt_card7{
     top: 16vw;
-    left: 46vw;
+    left: 48vw;
     z-index: 7;
 }
 
 #tt_card8{
     top: 20vw;
-    left: 31vw;
+    left: 33vw;
     z-index: 8;
 }
 
 #tt_card9{
     top: 22vw;
-    left: 1vw;
+    left: 3vw;
     z-index: 9;
 }
 #tt_card10{
     top: 26vw;
-    left: 18vw;
+    left: 20vw;
     z-index: 10;
 }
 
 #tt_card11{
     top: 28vw;
-    left: 46vw;
+    left: 48vw;
     z-index: 11;
 }
 
 #tt_card12{
     top: 32vw;
-    left: 31vw;
+    left: 33vw;
     z-index: 12;
 }
 
@@ -172,21 +156,118 @@
 
     .tt_pack .cards {
         width: 100%;
-        padding: 0;
+        padding: 2rem 0;
     }
 
     .tt_card {
-        width: 90%; /* Adjust the width as needed */
-        margin: 10px auto; /* Centers the card and adds some space between them */
-        position: relative; /* Resets the position */
-        font-size: 4vw; /* Adjust the base font size for the card */
+        width: 70%; 
+        margin: 10px auto;
+        position: relative;
+        font-size: 4vw; 
+
     }
 
     .tt_card .title {
-        font-size: 5vw; /* Larger font size for the title */
+        font-size: 2.5vw; 
     }
 
     .tt_card .body {
-        font-size: 3.5vw;
+        font-size: 2vw;
+        opacity: 1;
+        bottom: 10%;
     }
+
+    .tt_pack .sidebar {
+        display: static;
+        width: 80%;
+        height: max-content;
+        margin: 1rem auto;
+        writing-mode: horizontal-tb;
+        border: none;
+        background-color: transparent;
+    }
+
+    .tt_pack .sidebar span {
+        position: static;
+        font-size: 5vw;
+        margin: 10px auto;
+    }
+
+    .tt_card:hover {
+        transform: none;
+    }
+
+    #tt_card1{
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    #tt_card2{
+        top: -10vw  ;
+        left: 10vw;
+        z-index: 2;
+    }
+
+    #tt_card3{
+        top: -20vw;
+        left: 20vw;
+        z-index: 3;
+    }
+
+    #tt_card4{
+        top: -30vw;
+        left: 10vw;
+        z-index: 4;
+    }
+
+    #tt_card5{
+        top: -40vw;
+        left: 0vw;
+        z-index: 5;
+    }
+
+    #tt_card6{
+        top: -50vw;
+        left: 10vw;
+        z-index: 6;
+    }
+
+    #tt_card7{
+        top: -60vw;
+        left: 20vw;
+        z-index: 7;
+    }
+
+    #tt_card8{
+        top: -70vw;
+        left: 10vw;
+        z-index: 8;
+    }
+
+    #tt_card9{
+        top: -80vw;
+        left: 0vw;
+        z-index: 9;
+    }
+
+    #tt_card10{
+        top: -90vw;
+        left: 10vw;
+        z-index: 10;
+    }
+
+    #tt_card11{
+        top: -100vw;
+        left: 20vw;
+        z-index: 11;
+    }
+
+    #tt_card12{
+        top: -110vw;
+        left: 10vw;
+        z-index: 12;
+    }
+
+    
 }

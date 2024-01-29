@@ -11,7 +11,7 @@ html{
 
 .main-container::before {
   /* background: url(imagess/bgg2.avif) no-repeat center center/cover; */
-  background-color: black;
+  background-color: transparent;
   content: "";
   position: absolute;
   top: 0;
@@ -90,7 +90,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black
+  background-color: transparent
   /* mix-blend-mode: multiply; */
   /* box-shadow: inset -2px -2px 3px rgba(0,0,0,0.8); */
 
@@ -101,9 +101,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
-    /* background-color: rgb(24, 97, 97); */
-    background-color:rgb(79, 100, 85) ;
+    background-color:transparent;
     opacity: 2;
     box-shadow: 2px 3px 4px rgba(0,0,0,0.8);
 }
@@ -113,7 +111,6 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(226, 217, 217); */
     box-shadow: -2px -3px 4px rgba(0,0,0,0.8);
     padding: 2rem 2rem;
     position: relative;
@@ -124,7 +121,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #436589; */
     overflow: hidden;
     position: relative;
 }
