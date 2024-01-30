@@ -4,28 +4,48 @@ body{
   margin: 0;
 }
 
-.mainpage{
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
 .tt{
   position: relative;
   height: 120vh;
-}
+}   
 .page{
   position: relative;
 }
 
-#video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+#video {
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.maincontainer {
+  animation: shade 12s forwards;
+  z-index: 1; 
+}
+
+.mainpage {
+  height: 100vh;
+  z-index: 2; 
+  margin: 0;
+}
+
+.page {
+  position: relative;
+  z-index: 2; 
+}
+
+@keyframes shade{
+  0%,80%{
+    background-color: transparent;
+  }
+
+
+  100%{
+    background-color: rgba(0,0,0,.7);
+  }    
 }
