@@ -1,9 +1,16 @@
 .techClubsApp {
   text-align: center;
 }
-.techclubsname {
- font-size: 40px;
+.techclubname {
+ font-size: 20px;
  color: red;
+ /* font-size: 100%; */
+  transition: opacity 0.2s ease;
+  z-index: 20;
+  /* visibility: hidden; */
+}
+.techclubname:hover {
+  visibility: visible;
 }
 
 .techClubsLogo {
@@ -91,14 +98,18 @@
 
 .techClubsArticle:hover .techClubsImg {
   opacity: 0.1;
+  scale: 1.1;
+  /* visibility: visible; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .techClubsImg {
-  height: 60%;
+  height: 100%;
   transition: .75s;
   clip-path: url(#hexagono);
   clip-path: inherit;
   z-index:  10;
+  scale: 1.2;
 }
 
 .techClubsImg:hover {
