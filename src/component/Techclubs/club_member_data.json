@@ -13,7 +13,7 @@
         {
             "name": "BioX Club",
             "description": "Innovate at the intersection of biology and technology",
-            "imageUrl": "./img/BioX.png"
+            "imageUrl": "./img/BioX_white.png"
         },
         {
             "name": "Energy Club",
@@ -23,7 +23,7 @@
         {
             "name": "Web and Coding Club",
             "description": "Code",
-            "imageUrl": "./img/WnCC.png"
+            "imageUrl": "./img/wncc.png"
         },
         {
             "name": "Web Team",
@@ -314,7 +314,7 @@
             "LinkedIn": "https://www.linkedin.com/in/dhruv-namnani-b4120b250",
             "Instagnam": "https://www.instagnam.com/_dhruv__10/",
             "Index": 1,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/dhruv_chem.jpg"
         },
         {
             "Email Address": "22b2736@iitb.ac.in",
@@ -324,7 +324,7 @@
             "LinkedIn": "https://www.linkedin.com/in/suketu-datta-8a7b07256/",
             "Instagnam": "https://www.instagnam.com/suda1124/",
             "Index": 2,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/suketu_chem.jpg"
         },
         {
             "Email Address": "ronittripathy2004@gmail.com",
@@ -334,7 +334,7 @@
             "LinkedIn": " https://in.linkedin.com/in/ronit-tripathy-152846250",
             "Instagnam": "instagnam.com/ronit_tripathy/",
             "Index": 3,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/ronit_chem.jpg"
         },
         {
             "Email Address": "22b0308@iitb.ac.in",
@@ -344,7 +344,7 @@
             "LinkedIn": "https://www.linkedin.com/in/vipul-muskan-981480284/",
             "Instagnam": "https://www.instagnam.com/vipulmuskan8?igsh=bXJ0d2Y1d29kc2s4",
             "Index": 4,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/vipul_chem.jpg"
         },
         {
             "Email Address": "parth04rasal@gmail.com",
@@ -354,7 +354,7 @@
             "LinkedIn": "www.linkedin.com/in/parth04rasal",
             "Instagnam": "https://www.instagnam.com/parth04_rasal/",
             "Index": 5,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/parth_chem.jpg"
         },
         {
             "Email Address": "aryanbagdia.ab@gmail.com",
@@ -364,7 +364,7 @@
             "LinkedIn": "https://www.linkedin.com/in/aryanbagdia?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
             "Instagnam": "https://www.instagnam.com/aryanbagdia?igsh=MWg2aXhqMGtxdjl1aQ==",
             "Index": 6,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/aryan_chem.jpg"
         },
         {
             "Email Address": "",
@@ -431,7 +431,7 @@
             "LinkedIn": "www.linkedin.com/in/ashita28",
             "Instagnam": "Na",
             "Index": 1,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/ashita_tl.jpg"
         },
         {
             "Email Address": "22b0659@iitb.ac.in",
@@ -441,7 +441,7 @@
             "LinkedIn": "https://www.linkedin.com/in/sujaysomani?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=android_app",
             "Instagnam": "I'm on Instagnam as @sujay_1262. Install the app to follow my photos and videos. https://www.instagnam.com/sujay_1262?igsh=YzljYTk1ODg3Zg==",
             "Index": 2,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/sujay_tl.jpg"
         },
         {
             "Email Address": "karrthikradhakrishnan04@gmail.com",
@@ -451,7 +451,7 @@
             "LinkedIn": "https://www.linkedin.com/in/karrthik-radhakrishnan-34bb07274/",
             "Instagnam": "https://www.linkedin.com/in/karrthik-radhakrishnan-34bb07274/",
             "Index": 3,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/karthik_tl.jpg"
         },
         {
             "Email Address": "22b4523@iitb.ac.in",
@@ -461,7 +461,7 @@
             "LinkedIn": "https://in.linkedin.com/in/ved-munj-9b51281b4",
             "Instagnam": "Non existent ",
             "Index": 4,
-            "imageUrl": "./img/"
+            "imageUrl": "./img/ved_tl.jpg"
         },
         {
             "Email Address": "",
@@ -700,7 +700,7 @@
             "LinkedIn": "https://www.linkedin.com/in/kaustav-saha-450a87253?utm_source=share&utm_nampaign=share_via&utm_content=profile&utm_medium=ios_app",
             "Instagnam": "https://www.instagnam.com/kaustavsaha04/",
             "Index": 5,
-            "imageUrl": "./img/kaustav_erc.jpg"
+            "imageUrl": "./img/kaustav_erc.jpeg"
         },
         {
             "Email Address": "22B3907@iitb.ac.in",
