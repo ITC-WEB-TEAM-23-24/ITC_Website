@@ -1,9 +1,57 @@
 .techClubsApp {
   text-align: center;
 }
-.techclubsname {
- font-size: 40px;
- color: red;
+
+.techClubsArticle {
+  position: relative; 
+  cursor: pointer;
+  border: 0px solid neonColor;
+    /* box-shadow: 0 0 100px neonColor, 0 0 200px neonColor, 0 0 300px neonColor; */
+}
+
+.techClubsImg {
+  width: 100%; 
+  transition: opacity 0.2s ease; 
+}
+
+.techclubname {
+  font-size: 28px;
+  color: #ffffff; 
+  position: absolute;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease;
+  opacity: 0;
+  font-family: 'Arial', sans-serif; 
+  color: #FFF; 
+}
+:root {
+  --neonColor: rgb(48, 252, 143); /* Neon green as an example */
+}
+.techClubsArticle, .techclubname {
+  color: var(--neonColor);
+  border-color: var(--neonColor);
+  box-shadow: 0 0 6px var(--neonColor), 0 0 14px var(--neonColor), 0 0 20px var(--neonColor);
+  text-shadow: 0 0 1px var(--neonColor), 0 0 10px var(--neonColor);
+}
+
+
+.techClubsArticle:hover .techclubname {
+  opacity: 1; /* Visible on hover */
+}
+
+.techclubname {
+ font-size: 20px;
+ /* color: red; */
+ /* font-size: 100%; */
+  transition: opacity 0.2s ease;
+  z-index: 20;
+  /* visibility: hidden; */
+}
+.techclubname:hover {
+  visibility: visible;
 }
 
 .techClubsLogo {
@@ -75,7 +123,7 @@
 }
 
 .techClubsArticle {
-  background: cadetblue;
+  background: rgb(0, 0, 0);
   width: var(--size); 
   height: calc(var(--size) / 1.1111111);
   clip-path: url(#hexagono);
@@ -83,6 +131,7 @@
   margin-right: calc(var(--size) / 2);
   color: #fff;
   overflow: hidden;
+
 }
 
 .techClubsArticle:nth-child(2n) {
@@ -90,15 +139,19 @@
 }
 
 .techClubsArticle:hover .techClubsImg {
-  opacity: 0.1;
+  opacity: 0.3;
+  scale: 1.1;
+  /* visibility: visible; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .techClubsImg {
-  height: 60%;
+  height: 100%;
   transition: .75s;
   clip-path: url(#hexagono);
   clip-path: inherit;
   z-index:  10;
+  scale: 1.1;
 }
 
 .techClubsImg:hover {
