@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Mainbody from "./component/Mainbody/Mainbody";
-import "./component/Chirag/sytle1.css"; 
+import "./component/Chirag/sytle1.css";
 import "./component/Chirag/style2.css";
 import "./component/Chirag/style3.css";
-import React, { useRef,useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Newpage from "./component/Chirag/Newpage";
 
-import Hexgrid from "./component/Techclubs/index"
+import Hexgrid from "./component/Techclubs/index";
 import video2 from "./assets/bg.mp4";
 import TT_Pack from "./component/techteam";
 import Footer from "./component/Footer";
@@ -35,9 +35,9 @@ function App() {
 
   return (
     <div className="app">
-        <video autoPlay muted id="video">
-          <source src={video2} type="video/mp4" />
-        </video>
+      <video autoPlay muted id="video">
+        <source src={video2} type="video/mp4" />
+      </video>
       {loadpage && (
         <div className="maincontainer">
           <div className="mainpage">
@@ -52,7 +52,6 @@ function App() {
         </div>
       )}
     </div>
-    
   );
 }
 

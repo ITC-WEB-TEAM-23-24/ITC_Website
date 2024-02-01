@@ -10,6 +10,18 @@ import { Menu } from "lucide-react";
 function Navbar() {
   const [onTop, setonTop] = useState(true);
   const [sidebarOpen, setsidebarOpen] = useState(false);
+  const [navbarOpen, setnavbarOpen] = useState(window.innerWidth >= 850);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setnavbarOpen(window.innerWidth >= 850);
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -112,6 +124,7 @@ function Navbar() {
           <ul className="navbar-links">
             <AnimatePresence>
               {onTop &&
+                navbarOpen &&
                 links.map((link, index) => (
                   <motion.li
                     key={index}
@@ -134,7 +147,7 @@ function Navbar() {
         </div>
       </motion.nav>
       <AnimatePresence>
-        {!onTop && (
+        {(!onTop || !navbarOpen) && (
           <>
             <motion.div
               initial={{ x: "100%", opacity: 0 }}
@@ -190,7 +203,7 @@ function Navbar() {
               </svg>
             </motion.div>
             <AnimatePresence>
-              {!onTop && sidebarOpen && (
+              {(!onTop || !navbarOpen) && sidebarOpen && (
                 <motion.div
                   initial={{ opacity: 1, zIndex: 10, x: "100%" }}
                   animate={{ opacity: 1, zIndex: 10, x: 0 }}

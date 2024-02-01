@@ -43,9 +43,9 @@ function Newpage() {
           </div>
         </div>
       </div>
-      <div className="row pg4row">
+      {/* <div className="row pg4row">
         <Page5 />
-      </div>
+      </div> */}
     </>
   );
 }

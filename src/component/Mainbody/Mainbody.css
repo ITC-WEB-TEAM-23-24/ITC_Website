@@ -1,16 +1,17 @@
 .mainbody{
     display: flex;
     color: white;
-    margin-top:50px;
-    margin-left:10%;
+    margin-top:7vh;
+    margin-left:10vw;
     position: absolute;
-    background:linear-gradient(transparent 0%, rgba(0,0,0,0.7) 100%);
+    background-color: transparent;
 }
 
 .mainbody-heading{
-    font-size: 85px;
+    font-size: 9rem;
     font-weight: bold;
     font-family: Barlow Condensed, sans-serif;
-    display: inline-block;
+    display: flex ;
+    flex-direction: column;
     text-shadow: 3px 3px 2px grey;
 }
