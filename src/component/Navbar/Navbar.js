@@ -11,6 +11,7 @@ function Navbar() {
   const [onTop, setonTop] = useState(true);
   const [sidebarOpen, setsidebarOpen] = useState(false);
   const [navbarOpen, setnavbarOpen] = useState(window.innerWidth >= 850);
+  const [workReportDropdownOpen, setWorkReportDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -74,19 +75,56 @@ function Navbar() {
     };
   }, [sidebarOpen]);
 
-  // set the x value of below links such that they move to the rightmost corner of screen
-  const links = [
-    { text: "EVENTS", x: "48vw", delay: 1 },
-    { text: "CLUBS", x: "42vw", delay: 0.8 },
-    { text: "TECH TEAMS", x: "34vw", delay: 0.6 },
-    { text: "PORTALS", x: "24vw", delay: 0.4 },
-    { text: "OTHER BODIES", x: "14vw", delay: 0.2 },
-    { text: "WORK REPORT", x: "2vw", delay: 0 },
-  ];
+// Update the links array to include dropdown items
+const links = [
+  { 
+    text: "LABS", 
+    link: "", 
+    x: "48vw", 
+    delay: 1 ,
+    hasDropdown: true,
+    dropdownItems: [
+      { text: "Tinkers' Lab", link: "https://sites.google.com/view/tinkererslaboratory/home" },
+      { text: "Chem E TL", link: "https://www.facebook.com/people/ChemE-Tinkerers-Lab/100075704359561/" },
+    ]
+  },
+  { text: "OTHER BODIES", link: "", x: "42vw", delay: 0.8 },
+  { text: "ITSA", link: "https://itsa-iitb.vercel.app/", x: "34vw", delay: 0.6 },
+  { 
+    text: "PORTALS", 
+    link: "", 
+    x: "24vw", 
+    delay: 0.4 ,
+    hasDropdown: true,
+    dropdownItems: [
+      { text: "Tech GC", link: "https://itc.gymkhana.iitb.ac.in/techgc/" },
+      { text: "Certificate", link: "https://itc.gymkhana.iitb.ac.in/certificates/" },
+    ]
+  },
+  { 
+    text: "WORK REPORT", 
+    link: "", 
+    x: "2vw", 
+    delay: 0.2, 
+    hasDropdown: true, 
+    dropdownItems: [
+      { text: "22-23", link: "https://drive.google.com/file/d/1vlQB4_Tw69_bqSxWxHKppeCNJ_eePe9W/view" },
+      { text: "21-22", link: "https://drive.google.com/file/d/1CwgeieBXbce65de2IKsVUMdjoYP4jBMf/view" },
+      { text: "20-21", link: "https://drive.google.com/file/d/1tiiH1S-S4E0SzjRlTC662ROOnqZ2NGa9/view" },
+      { text: "19-20", link: "https://drive.google.com/file/d/1Gu5g2DgVcuHfsF2YoOmbWJ9aHHXu3aeD/view?fbclid=IwAR2U9TCTmEdIRSvlUQKcdlnxOqMQIHzdu6leI6AgIT-tJYxkW23iDLyURtc" },
+      { text: "18-19", link: "https://drive.google.com/file/d/1FdZkG9AmuB9rGaTG2NRnJPRl11hkV-Zl/view" },
+    ]
+  },
+  { text: "DISCUSSION", link: "", x: "14vw", delay: 0 },
+];
 
   const handlesidebar = () => {
     setsidebarOpen(!sidebarOpen);
     console.log(sidebarOpen);
+  };
+
+  const toggleWorkReportDropdown = () => {
+    setWorkReportDropdownOpen(!workReportDropdownOpen);
   };
 
   return (
@@ -139,9 +177,22 @@ function Navbar() {
                     }}
                     className={`links`}
                   >
-                    <motion.a href={`#${link.text}`}>{link.text}</motion.a>
+                    {link.hasDropdown ? (
+                      <div className="dropdown">
+                        <a href={`#${link.text}`}>{link.text}</a>
+                        <div className="dropdown-content">
+                          {link.dropdownItems.map((item, i) => (
+                            <a key={i} href={item.link}>{item.text}</a>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      <a href={`#${link.text}`}>{link.text}</a>
+                    )}
                   </motion.li>
-                ))}
+                ))
+
+                }
             </AnimatePresence>
           </ul>
         </div>
@@ -218,23 +269,31 @@ function Navbar() {
                   <div className="sidebar-links">
                     <ul className="sidebarlinkslist">
                       {links.map((link, index) => (
-                        <motion.li key={index} href={`#${link.text}`}>
-                          <AnimatePresence>
-                            <motion.a
-                              initial={{ opacity: 1, y: "100%" }}
-                              animate={{ opacity: 1, y: 0 }}
-                              exit={{ opacity: 1, y: "100%" }}
-                              transition={{
-                                duration: 0.6,
-                                delay: 0.8,
-                                type: "spring",
-                                mass: 0.2,
-                              }}
-                              href={`#${link.text}`}
-                            >
-                              {link.text}
-                            </motion.a>
-                          </AnimatePresence>
+                        <motion.li
+                          key={index}
+                          initial={{ x: link.x, opacity: 0 }}
+                          animate={{ opacity: 1, x: 0 }}
+                          exit={{ opacity: 0, x: link.x }}
+                          transition={{
+                            duration: 0.5,
+                            delay: link.delay,
+                            type: "spring",
+                            mass: 0.2,
+                          }}
+                          className={`links`}
+                        >
+                          {link.hasDropdown ? (
+                            <div className="dropdown">
+                              <a href={`#${link.text}`}>{link.text}</a>
+                              <div className="dropdown-content">
+                                {link.dropdownItems.map((item, i) => (
+                                  <a key={i} href={item.link}>{item.text}</a>
+                                ))}
+                              </div>
+                            </div>
+                          ) : (
+                            <a href={`#${link.text}`}>{link.text}</a>
+                          )}
                         </motion.li>
                       ))}
                     </ul>
