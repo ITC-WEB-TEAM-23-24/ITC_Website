@@ -177,9 +177,9 @@ const links = [
                     }}
                     className={`links`}
                   >
-                    {link.hasDropdown ? (
+                    {link.hasDropdown ? ( 
                       <div className="dropdown">
-                        <a href={`#${link.text}`}>{link.text}</a>
+                        <a href={`#${link.link}`}>{link.text}</a>
                         <div className="dropdown-content">
                           {link.dropdownItems.map((item, i) => (
                             <a key={i} href={item.link}>{item.text}</a>
